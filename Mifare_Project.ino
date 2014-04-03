@@ -15,13 +15,13 @@
   
   Connect PN532 Breakout as shown in Adafruit tutorial located at:
 
-  Connect Lcd as shown at Adafruit tutorial located at:
+  Connect Lcd as shown at Adafruit tutorial located at: http://goo.gl/MTk5jK
 
   Connect Green LED to pin 13
 
   Connect Red LED to pin 14 (A0)
 
-  Connect 5V All in one Piezo (buy it at: ) to pin 15 (A1)
+  Connect 5V All in one Piezo (buy it at: http://goo.gl/sh3mbo) to pin 15 (A1)
 
   Connect Solid State Relay or Relay Board to pin 6
   
@@ -120,7 +120,7 @@ void loop(void) {
       Serial.print("Seems to be a Mifare Classic card #");
       Serial.println(cardid);
       
-      if (cardid == 2366586084)  {    //Change to your card number
+      if (cardid == 1234567890)  {    //Change to your card number
         lcd.setCursor(0,0);
         lcd.println("Authorized");
         Serial.println("Correct Card");
