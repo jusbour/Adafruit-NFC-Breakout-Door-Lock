@@ -9,16 +9,28 @@
 
   
 ***************************************************************************
-  
-  Connect PN532 Breakout as shown in Adafruit tutorial located at:
 
-  Connect Lcd as shown at Adafruit tutorial located at: http://goo.gl/MTk5jK
+  <h3>Hardware Setup</h3>
 
-  Connect Green LED to pin 13
+  <ul>
+  <li>Connect PN532 Breakout as shown in Adafruit tutorial located at: http://goo.gl/yVE9Ph</li>
 
-  Connect Red LED to pin 14 (A0)
+  <li>Connect Lcd as shown at Adafruit tutorial located at: http://goo.gl/MTk5jK</li>
 
-  Connect 5V All in one Piezo (buy it at: http://goo.gl/sh3mbo for 95 cents) to pin 15 (A1)
+  <li>Connect Green LED to pin 13</li>
 
-  Connect Solid State Relay or Relay Board to pin 6
+  <li>Connect Red LED to pin 14 (A0)</li>
 
+  <li>Connect 5V All in one Piezo (buy it at: http://goo.gl/sh3mbo for 95 cents) to pin 15 (A1)</li>
+
+  <li>Connect Solid State Relay or Relay Board to pin 6</li>
+
+***************************************************************************
+
+  <h3>Installation Instructions</h3>
+  <ol>
+      <li>Clone repo with "Download ZIP".</li>
+      <li>Extract.</li>
+      <li>Open File in Arduino IDE.</li>
+      <li>Upload to Board.</li>
+  </ol>
